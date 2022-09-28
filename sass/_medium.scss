@@ -1,0 +1,53 @@
+@media (min-width: 768px) {
+	
+	.animations {
+		animation: comeUp 2s 1.5s linear both;
+	}
+	h1 {
+		margin-top: 40px;
+        margin-bottom: 35px;
+		font-size: 45px;
+		animation: slideIn 1s linear;
+	}
+
+	.calculator {
+		&__title {
+			font-size: 30px;
+		}
+
+		&__text {
+			font-size: 21px;
+
+			span {
+				font-size: 30px;
+			}
+		}
+
+		&__input {
+			height: 150px;
+            min-height: 50px;
+			width: 70%;
+			max-width: 70%;
+			min-width: 70%;
+		}
+
+		&__btn {
+			width: 60%;
+
+			&--clear {
+				width: 40%;
+			}
+
+			&:hover {
+				background-color: $orange;
+			}
+		}
+	}
+
+	.author {
+		position: absolute;
+		bottom: 20px;
+		right: 10px;
+		transform: rotate(-10deg);
+	}
+}

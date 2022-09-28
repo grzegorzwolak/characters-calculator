@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chart calculator</title>
+		<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<h1>Character calculator</h1>
+
+		<div class="calculator animations">
+			<h2 class="calculator__title">Type the text below</h2>
+
+			<p class="calculator__text">
+				Number of characters: <span id="output">0</span>
+			</p>
+
+			<textarea
+				name="characters"
+				id="characters"
+				cols="30"
+				rows="10"
+				class="calculator__input"
+			></textarea>
+			<button class="calculator__btn" id="btnCalculate">Calculate</button>
+			<button class="calculator__btn calculator__btn--clear" id="btnClear">
+				Clear area
+			</button>
+		</div>
+
+		<div class="author animations">
+			<p class="author__name">
+				&copy; created by g<span class="author__name author__name--lastname"
+					>wolak</span
+				>
+			</p>
+		</div>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
