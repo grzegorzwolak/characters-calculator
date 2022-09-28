@@ -1,23 +1,19 @@
 @-webkit-keyframes slideUp {
   from {
-    font-size: 0;
     transform: translateY(200px);
     opacity: 0;
   }
   to {
-    font-size: 45px;
     transform: translateY(0);
     opacity: 1;
   }
 }
 @keyframes slideUp {
   from {
-    font-size: 0;
     transform: translateY(200px);
     opacity: 0;
   }
   to {
-    font-size: 45px;
     transform: translateY(0);
     opacity: 1;
   }
