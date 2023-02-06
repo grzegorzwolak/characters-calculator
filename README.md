@@ -6,5 +6,6 @@ During the creation of this site I used:
 
 This application counts the characters you enter in the input area.
 
-Link to the website -> https://grzegorzwolak.github.io/Simple-calculator/
+Link to the website -> https://grzegorzwolak.github.io/characters-calculator
+
 
